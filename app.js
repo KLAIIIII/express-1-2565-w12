@@ -5,6 +5,7 @@ const app = express()
 
 const server = http.createServer(app)
 
+
 // Get:http://localhost:5000/
 app.get('/',(req,res)=>{
     res.send({"message":"Home"})
